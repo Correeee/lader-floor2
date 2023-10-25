@@ -1,0 +1,46 @@
+:root {
+    --color-grey: #BCBCBC;
+    --color-sky: #70ADD1;
+}
+
+section svg {
+    width: 60%;
+}
+
+#LaMisonH:hover,
+#Zenzone:hover,
+#Genias_00000161623576810904111320000003944455962726520451_:hover,
+#_x35_4D:hover,
+#ClubPilates:hover,
+#OHLA:hover,
+#Live:hover,
+#DentalSpecialities:hover,
+#Mari:hover,
+#BoldNation:hover,
+#Flippos:hover,
+#Eco:hover,
+#Furshman:hover,
+#Semper:hover,
+#Yanamode:hover,
+#BWH:hover,
+#OnFleekHair:hover,
+#HotWorx:hover,
+#TheSport:hover,
+#MilanoBeautyStudios:hover,
+#WolffLaw:hover {
+    transition: 0.5s ease;
+    fill: var(--color-sky);
+    cursor: pointer;
+}
+
+.logos {
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    transition:  0.2s ease;
+}
+
+svg image {
+    width: 40px;
+    height: 40px;
+}
